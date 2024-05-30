@@ -145,3 +145,6 @@ mcs/build/compiler-server.log
 .packages
 artifacts
 .dotnet
+.ndk
+.msbuild
+out
