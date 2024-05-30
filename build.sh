@@ -6,7 +6,7 @@ mkdir -p out
 export CC=
 export CXX=
 export LDFLAGS=
-./configure --disable-system-aot
+./autogen.sh --disable-system-aot
 make
 make install "DESTDIR=$(realpath out)/bin-PC"
 
